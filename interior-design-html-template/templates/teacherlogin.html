@@ -1,0 +1,46 @@
+<html>
+<head>
+      <link href="static/css/login.css" rel="stylesheet">
+</head>
+<br>
+<br>
+    <div class="cont">
+            <div class="form sign-up">
+                <h2>Create your Account</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text" />
+                </label>
+                     <label>
+                    <span>College ID Number</span>
+                    <input type="text" />
+                </label>
+                     <label>
+                    <span>Phone Number</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" />
+                </label>
+                   <label>
+                    <span>Reenter Password</span>
+                    <input type="password" />
+
+                </label>
+                <button type="button" class="submit">Sign Up</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+</html>
